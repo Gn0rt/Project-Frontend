@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #ccc;
+}
+
+.header-logo,
+.header-nav {
+    padding: 5px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-lists {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 24px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 16px;
+
+}
