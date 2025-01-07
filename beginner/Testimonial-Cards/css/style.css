@@ -100,4 +100,60 @@
 /* Box 3 */
 .box-3 {
     margin-top: 70px;
+    position: relative;
+}
+
+.card-3 {
+    border: 1px solid #000;
+    border-radius: 45px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card3-content {
+    text-align: center;
+    width: 500px;
+}
+
+.card3-avatar {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.card3-avatar img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 3px 0 3px;
+}
+
+.card3-avatar img:nth-of-type(1),
+.card3-avatar img:nth-of-type(3) {
+    /* margin-top: 20px; */
+    width: 45px;
+    height: 45px;
+    opacity: 0.7;
+}
+
+.prevbtn,
+.nextbtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prevbtn {
+    left: 25%;
+}
+
+.nextbtn {
+    right: 25%;
+}
+
+.card3-name {
+    text-align: center;
 }
