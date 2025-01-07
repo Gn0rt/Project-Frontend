@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .header {
+        display: block;
+    }
+
+    .content {
+        margin-top: 137px;
+    }
+
+    .content-banner {
+        height: 100px;
+    }
+
+    .banner h2 {
+        width: 214px;
+    }
+}

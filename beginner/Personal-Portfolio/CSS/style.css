@@ -9,6 +9,11 @@
     justify-content: space-between;
     /* align-items: center; */
     background-color: #ccc;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
 }
 
 .header-logo,
@@ -39,4 +44,71 @@
     color: #000;
     margin: 0 16px;
 
+}
+
+.content {
+    margin-top: 77px;
+}
+
+.content-banner {
+    position: relative;
+    background-color: antiquewhite;
+    height: 350px;
+
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content-info,
+.content-review {
+    margin-top: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-project,
+.info-education,
+.info-work {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+.info-project-lists li,
+.info-education ul li {
+    margin-left: 15px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-teacher {
+    border: 1px solid #000;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.review-teacher-own {
+    color: #ccc;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* text-align: center; */
 }
