@@ -1,0 +1,51 @@
+h1,
+.des {
+    /* text-align: center; */
+}
+
+.contain {
+    display: flex;
+    margin-top: 50px;
+}
+
+.date {
+    border-right: 2px solid #000;
+    margin-right: 50px;
+    position: relative;
+}
+
+.date p {
+    margin-right: 45px;
+}
+
+.date .item {
+    color: #777;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.date .item:nth-child(2),
+.date .item:nth-child(3),
+.date .item:nth-child(4),
+.date .item:nth-child(5),
+.date .item:nth-child(6) {
+    margin-left: 5px;
+}
+
+.date .item:nth-child(7) {
+    margin-left: 10px;
+}
+
+.date .item::before {
+    content: "";
+    position: absolute;
+    right: -6px;
+    height: 12px;
+    width: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 3px;
+}
