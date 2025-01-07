@@ -1,10 +1,15 @@
 @media (max-width: 768px) {
     .header {
         display: block;
+        position: absolute;
+    }
+
+    .header-lists {
+        padding: 12px;
     }
 
     .content {
-        margin-top: 137px;
+        margin-top: 113px;
     }
 
     .content-banner {
@@ -13,5 +18,9 @@
 
     .banner h2 {
         width: 214px;
+    }
+
+    .info {
+        display: block;
     }
 }
