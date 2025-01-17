@@ -1,0 +1,64 @@
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.name,
+.email,
+.password,
+.cfPassword {
+    margin-bottom: 20px;
+}
+
+.fullnameLb,
+.emailLb,
+.passwordLb,
+.cfPasswordLb {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.email p {
+    color: red;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+.email.error p {
+    display: block;
+}
+
+.email.error #email {
+    border: 2px solid red;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#btnUpdate {
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    transition: ease .2s;
+}
+
+#btnUpdate:hover {
+    opacity: 0.7;
+}
